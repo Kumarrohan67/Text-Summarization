@@ -7,3 +7,7 @@ data_ingestion:
   unzip_dir: artifacts/data_ingestion
   # if in future you want to add some more path and want to chanbge the directory name the this would be convinent as you dont have to make changes everywere and just need to update here
   
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train","test","validation"]
