@@ -1,0 +1,9 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_url: https://github.com/Kumarrohan67/Text-Summarization/raw/main/samsumdata.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+  # if in future you want to add some more path and want to chanbge the directory name the this would be convinent as you dont have to make changes everywere and just need to update here
+  
