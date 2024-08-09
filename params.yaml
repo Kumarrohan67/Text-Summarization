@@ -1,1 +1,11 @@
-key: value
+TrainingArguments:
+  num_train_epoch: 1
+  warmup_steps: 500
+  per_device_train_batch_size: 1
+  weight_decay: 0.01
+  logging_step: 10
+  evalution_strategy: steps
+  eval_steps: 500
+  save_steps: 1e9
+  gradient_accumulation_step: 16
+  #this file will help us to make changes in the model directly from here without changing other placed
